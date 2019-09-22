@@ -5,5 +5,5 @@ inputs:
   repo-token:
     description: "TODO"
 runs:
-  using: 'node12'
-  main: 'lib/main.js'
+  using: 'docker'
+  image: 'Dockerfile'
